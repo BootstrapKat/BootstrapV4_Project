@@ -1,0 +1,212 @@
+.navbar {
+  background: rgba(255, 217, 0, 0.973);
+  font-weight: 500; }
+  .navbar .nav-link {
+    font-weight: 6500;
+    color: black; }
+
+.dropdown-menu {
+  background: rgba(255, 217, 0, 0.973);
+  font-weight: 500; }
+  .dropdown-menu a:hover {
+    background: rgba(255, 217, 0, 0.973);
+    font-weight: 500; }
+
+#home-section {
+  background: url("../images/header-bg1.jpg") no-repeat;
+  min-height: 900px;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.yellow-overlay {
+  background-color: rgba(255, 217, 0, 0.048);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 900px; }
+
+.home-inner {
+  padding-top: 150px; }
+  .home-inner hr {
+    border-top: 1px solid #fff; }
+  .home-inner .btn {
+    background-color: rgba(255, 217, 0, 0.562);
+    min-width: 50px; }
+
+.fa {
+  font-size: 100px; }
+
+.fa:hover {
+  background-color: #fff;
+  border: none;
+  opacity: 0.8; }
+
+.fa-facebook {
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.fa-twitter {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.fa-instagram {
+  padding-left: 30px;
+  padding-right: 30px; }
+
+h1 {
+  font-family: 'Lato', sans-serif; }
+
+#film {
+  background-color: rgba(96, 125, 139, 0.3); }
+  #film .card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-bottom: 10px; }
+  #film hr {
+    color: black; }
+  #film .style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+  #film h4 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    text-align: left !important; }
+  #film p {
+    font-size: 1.125rem;
+    font-family: 'Lato', sans-serif;
+    text-align: left; }
+  #film .p-10 {
+    margin-right: 0px; }
+  #film .fa-clock-o {
+    font-size: 13px;
+    margin-right: 5px; }
+  #film .fa-star {
+    font-size: 13px;
+    margin-right: 5px; }
+
+#register {
+  background: url("../images/header-bg1.jpg") no-repeat;
+  min-height: 900px;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.style-two {
+  border: 0;
+  height: 1px;
+  background: #fff;
+  background-image: linear-gradient(to right, #333, #ccc, #333); }
+
+.form {
+  background-color: #fff; }
+
+.bg-all {
+  background: rgba(255, 217, 0, 0.973); }
+
+#update {
+  background-color: rgba(96, 125, 139, 0.3); }
+
+.no-gutter-card-deck.card-columns {
+  column-gap: 0; }
+
+.no-gutter-card > .card {
+  margin: 0; }
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 217, 0, 0.562);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease; }
+
+.card:hover .overlay {
+  bottom: 0;
+  height: 100%; }
+
+.text {
+  white-space: wrap;
+  color: #000;
+  font-size: 1em;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+#btbanner .btn {
+  background-color: rgba(255, 217, 0, 0.562);
+  min-width: 50px; }
+
+.banner {
+  background-image: url("../images/banner-bg.jpg");
+  background-size: cover;
+  max-height: 600px; }
+
+html,
+body {
+  font-size: 14px !important; }
+
+h1 {
+  font-size: 1.602em; }
+
+h2 {
+  font-size: 1.424em; }
+
+h3 {
+  font-size: 1.266em; }
+
+h4 {
+  font-size: 1.125em; }
+
+h5 {
+  font-size: 0.889em; }
+
+h6 {
+  font-size: 0.79em; }
+
+.display-1 {
+  font-size: 3.906em; }
+
+.display-2 {
+  font-size: 3.125em; }
+
+.display-3 {
+  font-size: 2.5em; }
+
+.display-4 {
+  font-size: 2em; }
+
+@media (min-width: 48em) {
+  h1 {
+    font-size: 2.441em; }
+  h2 {
+    font-size: 1.953em; }
+  h3 {
+    font-size: 1.563em; }
+  h4 {
+    font-size: 1.25em; }
+  .display-1 {
+    font-size: 6em; }
+  .display-2 {
+    font-size: 5.5em; }
+  .display-3 {
+    font-size: 4.5em; }
+  .display-4 {
+    font-size: 3.5em; } }
+
+@media (min-width: 62em) {
+  html,
+  body {
+    font-size: 16px !important; } }
+
+@media (min-width: 75em) {
+  html,
+  body {
+    font-size: 18px !important; } }
